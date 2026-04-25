@@ -1,0 +1,1191 @@
+{
+  "html": [
+    {
+      "kategori": "Struktur Dokumen",
+      "command": "<!DOCTYPE html>",
+      "fungsi": "Menentukan bahwa dokumen memakai standar HTML5.",
+      "code": "<!DOCTYPE html>",
+      "preview": "<p class='muted'>Tidak tampil di layar, tetapi penting untuk browser.</p>"
+    },
+    {
+      "kategori": "Struktur Dokumen",
+      "command": "<html lang=\"id\">",
+      "fungsi": "Elemen root halaman. Atribut lang membantu browser dan mesin pencari mengetahui bahasa halaman.",
+      "code": "<html lang=\"id\">\n  ...\n</html>",
+      "preview": "<p class='muted'>Tidak terlihat langsung, tetapi membungkus seluruh halaman.</p>"
+    },
+    {
+      "kategori": "Struktur Dokumen",
+      "command": "<head>",
+      "fungsi": "Menyimpan informasi halaman seperti title, meta, dan link CSS.",
+      "code": "<head>\n  <title>Judul</title>\n</head>",
+      "preview": "<p class='muted'>Isi head tidak tampil sebagai konten utama.</p>"
+    },
+    {
+      "kategori": "Struktur Dokumen",
+      "command": "<meta charset=\"UTF-8\">",
+      "fungsi": "Agar karakter Indonesia, simbol, dan emoji terbaca benar.",
+      "code": "<meta charset=\"UTF-8\">",
+      "preview": "<p>Contoh teks: belajar, café, Rp, ✓</p>"
+    },
+    {
+      "kategori": "Struktur Dokumen",
+      "command": "<meta name=\"viewport\">",
+      "fungsi": "Membuat halaman responsif di HP/tablet.",
+      "code": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+      "preview": "<p class='muted'>Efeknya terasa saat halaman dibuka dari layar kecil.</p>"
+    },
+    {
+      "kategori": "Struktur Dokumen",
+      "command": "<title>",
+      "fungsi": "Menentukan judul tab browser.",
+      "code": "<title>Website Belajar Koding</title>",
+      "preview": "<p class='muted'>Tampil di tab browser, bukan di badan halaman.</p>"
+    },
+    {
+      "kategori": "Struktur Dokumen",
+      "command": "<link rel=\"stylesheet\">",
+      "fungsi": "Menghubungkan file CSS eksternal ke HTML.",
+      "code": "<link rel=\"stylesheet\" href=\"assets/css/style.css\">",
+      "preview": "<p class='muted'>CSS akan mengubah tampilan halaman.</p>"
+    },
+    {
+      "kategori": "Struktur Dokumen",
+      "command": "<body>",
+      "fungsi": "Berisi semua konten yang tampil di browser.",
+      "code": "<body>\n  <h1>Halo</h1>\n</body>",
+      "preview": "<h4>Halo</h4>"
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<h1> sampai <h6>",
+      "fungsi": "Membuat judul dan subjudul. h1 paling penting, h6 paling kecil.",
+      "code": "<h1>Judul Utama</h1>\n<h2>Subjudul</h2>\n<h3>Bagian</h3>",
+      "preview": "<h1 class='preview-h1'>Judul Utama</h1><h2 class='preview-h2'>Subjudul</h2><h3>Bagian</h3>"
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<p>",
+      "fungsi": "Membuat paragraf teks.",
+      "code": "<p>Ini adalah paragraf.</p>",
+      "preview": "<p>Ini adalah paragraf.</p>"
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<br>",
+      "fungsi": "Membuat baris baru di dalam teks.",
+      "code": "Alamat:<br>Jl. Belajar No. 1",
+      "preview": "Alamat:<br>Jl. Belajar No. 1"
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<hr>",
+      "fungsi": "Membuat garis pemisah horizontal.",
+      "code": "<p>Bagian 1</p>\n<hr>\n<p>Bagian 2</p>",
+      "preview": "<p>Bagian 1</p><hr><p>Bagian 2</p>"
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<strong>",
+      "fungsi": "Memberi penekanan penting, biasanya tampil tebal.",
+      "code": "Saya sedang <strong>belajar HTML</strong>.",
+      "preview": "Saya sedang <strong>belajar HTML</strong>."
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<em>",
+      "fungsi": "Memberi penekanan, biasanya tampil miring.",
+      "code": "Ini teks <em>miring</em>.",
+      "preview": "Ini teks <em>miring</em>."
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<mark>",
+      "fungsi": "Menandai teks seperti stabilo.",
+      "code": "Ini bagian <mark>penting</mark>.",
+      "preview": "Ini bagian <mark>penting</mark>."
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<small>",
+      "fungsi": "Membuat teks kecil, cocok untuk catatan atau copyright.",
+      "code": "<small>Catatan kecil</small>",
+      "preview": "<small>Catatan kecil</small>"
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<sup> dan <sub>",
+      "fungsi": "Membuat teks naik atau turun, biasa dipakai untuk rumus.",
+      "code": "x<sup>2</sup> dan H<sub>2</sub>O",
+      "preview": "x<sup>2</sup> dan H<sub>2</sub>O"
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<blockquote>",
+      "fungsi": "Menampilkan kutipan panjang.",
+      "code": "<blockquote>Belajar dengan praktik.</blockquote>",
+      "preview": "<blockquote>Belajar dengan praktik.</blockquote>"
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<code>",
+      "fungsi": "Menandai potongan kode singkat.",
+      "code": "Gunakan <code>echo</code> di PHP.",
+      "preview": "Gunakan <code>echo</code> di PHP."
+    },
+    {
+      "kategori": "Teks dan Heading",
+      "command": "<pre>",
+      "fungsi": "Menampilkan teks sesuai format asli, cocok untuk kode panjang.",
+      "code": "<pre>baris 1\n  baris 2</pre>",
+      "preview": "<pre class='mini-pre'>baris 1\n  baris 2</pre>"
+    },
+    {
+      "kategori": "Link dan Media",
+      "command": "<a>",
+      "fungsi": "Membuat tautan/link ke halaman lain atau bagian tertentu.",
+      "code": "<a href=\"https://example.com\">Buka Link</a>",
+      "preview": "<a href='#' class='demo-link'>Buka Link</a>"
+    },
+    {
+      "kategori": "Link dan Media",
+      "command": "<img>",
+      "fungsi": "Menampilkan gambar. Gunakan alt untuk teks alternatif.",
+      "code": "<img src=\"https://via.placeholder.com/300x120\" alt=\"Contoh gambar\">",
+      "preview": "<img class='preview-img' src='https://via.placeholder.com/300x120' alt='Contoh gambar'>"
+    },
+    {
+      "kategori": "Link dan Media",
+      "command": "<figure> dan <figcaption>",
+      "fungsi": "Membungkus gambar/diagram dengan keterangan.",
+      "code": "<figure>\n  <img src=\"gambar.jpg\" alt=\"Contoh\">\n  <figcaption>Keterangan gambar</figcaption>\n</figure>",
+      "preview": "<figure><div class='fake-image'>Gambar</div><figcaption>Keterangan gambar</figcaption></figure>"
+    },
+    {
+      "kategori": "Link dan Media",
+      "command": "<audio>",
+      "fungsi": "Memutar file audio.",
+      "code": "<audio controls src=\"audio.mp3\"></audio>",
+      "preview": "<p class='muted'>Akan tampil sebagai pemutar audio jika file tersedia.</p>"
+    },
+    {
+      "kategori": "Link dan Media",
+      "command": "<video>",
+      "fungsi": "Memutar file video.",
+      "code": "<video controls width=\"320\" src=\"video.mp4\"></video>",
+      "preview": "<div class='fake-video'>Area Video</div>"
+    },
+    {
+      "kategori": "Link dan Media",
+      "command": "<iframe>",
+      "fungsi": "Menyisipkan halaman lain, peta, atau embed video.",
+      "code": "<iframe src=\"halaman.html\"></iframe>",
+      "preview": "<div class='fake-frame'>Contoh area iframe</div>"
+    },
+    {
+      "kategori": "List",
+      "command": "<ul> dan <li>",
+      "fungsi": "Membuat daftar tidak berurutan/bullet.",
+      "code": "<ul>\n  <li>HTML</li>\n  <li>CSS</li>\n</ul>",
+      "preview": "<ul><li>HTML</li><li>CSS</li></ul>"
+    },
+    {
+      "kategori": "List",
+      "command": "<ol> dan <li>",
+      "fungsi": "Membuat daftar berurutan/angka.",
+      "code": "<ol>\n  <li>Buat file</li>\n  <li>Run server</li>\n</ol>",
+      "preview": "<ol><li>Buat file</li><li>Run server</li></ol>"
+    },
+    {
+      "kategori": "List",
+      "command": "<dl>, <dt>, <dd>",
+      "fungsi": "Membuat daftar definisi/keterangan.",
+      "code": "<dl>\n  <dt>HTML</dt>\n  <dd>Struktur halaman</dd>\n</dl>",
+      "preview": "<dl><dt>HTML</dt><dd>Struktur halaman</dd></dl>"
+    },
+    {
+      "kategori": "Tabel",
+      "command": "<table>",
+      "fungsi": "Membuat tabel data.",
+      "code": "<table>\n  <tr><td>Data</td></tr>\n</table>",
+      "preview": "<table class='preview-table'><tr><td>Data</td></tr></table>"
+    },
+    {
+      "kategori": "Tabel",
+      "command": "<caption>",
+      "fungsi": "Memberi judul/keterangan tabel.",
+      "code": "<table>\n  <caption>Daftar Siswa</caption>\n</table>",
+      "preview": "<table class='preview-table'><caption>Daftar Siswa</caption><tr><td>Jauza</td></tr></table>"
+    },
+    {
+      "kategori": "Tabel",
+      "command": "<thead>, <tbody>, <tfoot>",
+      "fungsi": "Membagi tabel menjadi kepala, isi, dan kaki tabel.",
+      "code": "<thead>...</thead>\n<tbody>...</tbody>\n<tfoot>...</tfoot>",
+      "preview": "<table class='preview-table'><thead><tr><th>Nama</th></tr></thead><tbody><tr><td>Jauza</td></tr></tbody><tfoot><tr><td>Total: 1</td></tr></tfoot></table>"
+    },
+    {
+      "kategori": "Tabel",
+      "command": "<tr>, <th>, <td>",
+      "fungsi": "tr untuk baris, th untuk header kolom, td untuk data kolom.",
+      "code": "<tr>\n  <th>Nama</th>\n  <td>Jauza</td>\n</tr>",
+      "preview": "<table class='preview-table'><tr><th>Nama</th><td>Jauza</td></tr></table>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<form>",
+      "fungsi": "Membungkus input yang akan dikirim ke server.",
+      "code": "<form action=\"proses.php\" method=\"POST\">\n  ...\n</form>",
+      "preview": "<form class='mini-form'><input placeholder='Input dalam form'></form>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<label>",
+      "fungsi": "Memberi keterangan untuk input dan meningkatkan aksesibilitas.",
+      "code": "<label for=\"nama\">Nama</label>\n<input id=\"nama\">",
+      "preview": "<label>Nama</label><input class='preview-input' placeholder='Nama'>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<input type=\"text\">",
+      "fungsi": "Input teks satu baris.",
+      "code": "<input type=\"text\" name=\"nama\">",
+      "preview": "<input class='preview-input' type='text' placeholder='Tulis nama'>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<input type=\"email\">",
+      "fungsi": "Input email dengan validasi format email dasar.",
+      "code": "<input type=\"email\" name=\"email\">",
+      "preview": "<input class='preview-input' type='email' placeholder='nama@email.com'>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<input type=\"password\">",
+      "fungsi": "Input password, karakter disembunyikan.",
+      "code": "<input type=\"password\" name=\"password\">",
+      "preview": "<input class='preview-input' type='password' value='password'>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<input type=\"number\">",
+      "fungsi": "Input angka.",
+      "code": "<input type=\"number\" name=\"umur\">",
+      "preview": "<input class='preview-input' type='number' value='20'>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<input type=\"date\">",
+      "fungsi": "Input tanggal.",
+      "code": "<input type=\"date\" name=\"tanggal\">",
+      "preview": "<input class='preview-input' type='date'>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<input type=\"checkbox\">",
+      "fungsi": "Pilihan centang, bisa lebih dari satu.",
+      "code": "<input type=\"checkbox\" checked> Setuju",
+      "preview": "<label><input type='checkbox' checked> Setuju</label>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<input type=\"radio\">",
+      "fungsi": "Pilihan salah satu dari beberapa opsi dengan name sama.",
+      "code": "<input type=\"radio\" name=\"gender\"> Pria",
+      "preview": "<label><input type='radio' name='demo' checked> Opsi A</label> <label><input type='radio' name='demo'> Opsi B</label>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<textarea>",
+      "fungsi": "Input teks panjang.",
+      "code": "<textarea name=\"pesan\"></textarea>",
+      "preview": "<textarea class='preview-input' rows='3'>Contoh pesan</textarea>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<select> dan <option>",
+      "fungsi": "Membuat dropdown pilihan.",
+      "code": "<select>\n  <option>HTML</option>\n</select>",
+      "preview": "<select class='preview-input'><option>HTML</option><option>CSS</option></select>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<button>",
+      "fungsi": "Membuat tombol.",
+      "code": "<button type=\"submit\">Kirim</button>",
+      "preview": "<button class='btn'>Kirim</button>"
+    },
+    {
+      "kategori": "Form",
+      "command": "<fieldset> dan <legend>",
+      "fungsi": "Mengelompokkan input form dengan judul grup.",
+      "code": "<fieldset>\n  <legend>Data User</legend>\n</fieldset>",
+      "preview": "<fieldset><legend>Data User</legend><input class='preview-input' placeholder='Nama'></fieldset>"
+    },
+    {
+      "kategori": "Semantic dan Layout",
+      "command": "<header>",
+      "fungsi": "Bagian atas halaman atau section, biasanya berisi logo/judul/menu.",
+      "code": "<header>Logo dan menu</header>",
+      "preview": "<header class='semantic-demo'>Header</header>"
+    },
+    {
+      "kategori": "Semantic dan Layout",
+      "command": "<nav>",
+      "fungsi": "Area navigasi/menu link.",
+      "code": "<nav><a href=\"#\">Home</a></nav>",
+      "preview": "<nav class='semantic-demo'><a href='#'>Home</a> | <a href='#'>Materi</a></nav>"
+    },
+    {
+      "kategori": "Semantic dan Layout",
+      "command": "<main>",
+      "fungsi": "Konten utama halaman. Umumnya satu main per halaman.",
+      "code": "<main>Konten utama</main>",
+      "preview": "<main class='semantic-demo'>Main content</main>"
+    },
+    {
+      "kategori": "Semantic dan Layout",
+      "command": "<section>",
+      "fungsi": "Membagi halaman menjadi bagian/topik.",
+      "code": "<section><h2>Materi HTML</h2></section>",
+      "preview": "<section class='semantic-demo'><h4>Materi HTML</h4></section>"
+    },
+    {
+      "kategori": "Semantic dan Layout",
+      "command": "<article>",
+      "fungsi": "Konten mandiri seperti artikel, berita, atau card postingan.",
+      "code": "<article><h2>Artikel</h2></article>",
+      "preview": "<article class='semantic-demo'><h4>Artikel</h4><p>Isi artikel...</p></article>"
+    },
+    {
+      "kategori": "Semantic dan Layout",
+      "command": "<aside>",
+      "fungsi": "Konten samping/sidebar seperti kategori, iklan, atau info tambahan.",
+      "code": "<aside>Sidebar</aside>",
+      "preview": "<aside class='semantic-demo'>Sidebar</aside>"
+    },
+    {
+      "kategori": "Semantic dan Layout",
+      "command": "<footer>",
+      "fungsi": "Bagian bawah halaman, biasanya copyright/link tambahan.",
+      "code": "<footer>Copyright</footer>",
+      "preview": "<footer class='semantic-demo'>Footer</footer>"
+    },
+    {
+      "kategori": "Semantic dan Layout",
+      "command": "<div>",
+      "fungsi": "Pembungkus umum untuk layout. Tidak memiliki makna semantik khusus.",
+      "code": "<div class=\"card\">Isi card</div>",
+      "preview": "<div class='semantic-demo'>Ini div/card</div>"
+    },
+    {
+      "kategori": "Semantic dan Layout",
+      "command": "<span>",
+      "fungsi": "Pembungkus kecil di dalam teks, biasanya untuk styling sebagian teks.",
+      "code": "Teks <span class=\"merah\">merah</span>",
+      "preview": "Teks <span class='red-text'>merah</span>"
+    }
+  ],
+  "css": [
+    {
+      "kategori": "Selector",
+      "command": "*",
+      "fungsi": "Memilih semua elemen. Sering dipakai untuk reset margin/padding.",
+      "code": "* {\n  box-sizing: border-box;\n}",
+      "demo": "<div class='demo-note'>Selector universal berlaku ke semua elemen.</div>"
+    },
+    {
+      "kategori": "Selector",
+      "command": "tag selector",
+      "fungsi": "Memilih semua tag tertentu, misalnya semua p.",
+      "code": "p {\n  color: blue;\n}",
+      "demo": "<p style='color:blue'>Semua paragraf bisa dibuat biru.</p>"
+    },
+    {
+      "kategori": "Selector",
+      "command": ".class",
+      "fungsi": "Memilih elemen berdasarkan class.",
+      "code": ".card {\n  padding: 16px;\n}",
+      "demo": "<div style='padding:16px;border:1px solid #ddd;border-radius:10px'>Elemen dengan class card.</div>"
+    },
+    {
+      "kategori": "Selector",
+      "command": "#id",
+      "fungsi": "Memilih elemen berdasarkan id unik.",
+      "code": "#judul {\n  color: red;\n}",
+      "demo": "<div style='color:red'>Elemen dengan id judul.</div>"
+    },
+    {
+      "kategori": "Selector",
+      "command": ":hover",
+      "fungsi": "Memberi style saat mouse diarahkan ke elemen.",
+      "code": "button:hover {\n  background: black;\n}",
+      "demo": "<button class='btn hover-demo'>Arahkan mouse</button>"
+    },
+    {
+      "kategori": "Selector",
+      "command": "::before / ::after",
+      "fungsi": "Menambahkan konten dekoratif sebelum/sesudah elemen.",
+      "code": ".label::before {\n  content: '★ ';\n}",
+      "demo": "<div class='before-demo'>Materi Favorit</div>"
+    },
+    {
+      "kategori": "Warna dan Background",
+      "command": "color",
+      "fungsi": "Mengatur warna teks.",
+      "code": "color: red;",
+      "demo": "<div style='color:red'>Teks berwarna merah</div>"
+    },
+    {
+      "kategori": "Warna dan Background",
+      "command": "background-color",
+      "fungsi": "Mengatur warna latar.",
+      "code": "background-color: yellow;",
+      "demo": "<div style='background-color:#fef3c7;padding:12px;border-radius:8px'>Latar berwarna</div>"
+    },
+    {
+      "kategori": "Warna dan Background",
+      "command": "background",
+      "fungsi": "Mengatur latar sekaligus, bisa warna, gambar, atau gradient.",
+      "code": "background: linear-gradient(135deg, #dbeafe, #fff);",
+      "demo": "<div style='background:linear-gradient(135deg,#dbeafe,#fff);padding:16px;border-radius:8px'>Background gradient</div>"
+    },
+    {
+      "kategori": "Warna dan Background",
+      "command": "opacity",
+      "fungsi": "Mengatur transparansi elemen.",
+      "code": "opacity: 0.5;",
+      "demo": "<div style='opacity:.5;background:#2563eb;color:white;padding:12px;border-radius:8px'>Transparan 50%</div>"
+    },
+    {
+      "kategori": "Teks",
+      "command": "font-family",
+      "fungsi": "Mengatur jenis font.",
+      "code": "font-family: Arial, sans-serif;",
+      "demo": "<div style='font-family:Arial,sans-serif'>Font Arial</div>"
+    },
+    {
+      "kategori": "Teks",
+      "command": "font-size",
+      "fungsi": "Mengatur ukuran teks.",
+      "code": "font-size: 24px;",
+      "demo": "<div style='font-size:24px'>Teks 24px</div>"
+    },
+    {
+      "kategori": "Teks",
+      "command": "font-weight",
+      "fungsi": "Mengatur ketebalan teks.",
+      "code": "font-weight: bold;",
+      "demo": "<div style='font-weight:bold'>Teks tebal</div>"
+    },
+    {
+      "kategori": "Teks",
+      "command": "font-style",
+      "fungsi": "Mengatur gaya miring/normal.",
+      "code": "font-style: italic;",
+      "demo": "<div style='font-style:italic'>Teks miring</div>"
+    },
+    {
+      "kategori": "Teks",
+      "command": "text-align",
+      "fungsi": "Mengatur rata teks.",
+      "code": "text-align: center;",
+      "demo": "<div style='text-align:center;border:1px solid #ddd;padding:10px'>Rata tengah</div>"
+    },
+    {
+      "kategori": "Teks",
+      "command": "text-decoration",
+      "fungsi": "Memberi/menghapus garis bawah, garis tengah, dll.",
+      "code": "text-decoration: underline;",
+      "demo": "<div style='text-decoration:underline'>Teks bergaris bawah</div>"
+    },
+    {
+      "kategori": "Teks",
+      "command": "text-transform",
+      "fungsi": "Mengubah kapitalisasi teks.",
+      "code": "text-transform: uppercase;",
+      "demo": "<div style='text-transform:uppercase'>teks menjadi kapital</div>"
+    },
+    {
+      "kategori": "Teks",
+      "command": "letter-spacing",
+      "fungsi": "Mengatur jarak antar huruf.",
+      "code": "letter-spacing: 4px;",
+      "demo": "<div style='letter-spacing:4px'>SPASI HURUF</div>"
+    },
+    {
+      "kategori": "Teks",
+      "command": "line-height",
+      "fungsi": "Mengatur tinggi baris agar paragraf nyaman dibaca.",
+      "code": "line-height: 1.8;",
+      "demo": "<p style='line-height:1.8'>Baris pertama<br>Baris kedua lebih renggang</p>"
+    },
+    {
+      "kategori": "Box Model",
+      "command": "width",
+      "fungsi": "Mengatur lebar elemen.",
+      "code": "width: 200px;",
+      "demo": "<div style='width:200px;background:#dbeafe;padding:10px;border-radius:8px'>Lebar 200px</div>"
+    },
+    {
+      "kategori": "Box Model",
+      "command": "height",
+      "fungsi": "Mengatur tinggi elemen.",
+      "code": "height: 80px;",
+      "demo": "<div style='height:80px;background:#dbeafe;padding:10px;border-radius:8px'>Tinggi 80px</div>"
+    },
+    {
+      "kategori": "Box Model",
+      "command": "max-width",
+      "fungsi": "Membatasi lebar maksimal elemen.",
+      "code": "max-width: 400px;",
+      "demo": "<div style='max-width:400px;background:#eef2ff;padding:10px;border-radius:8px'>Maksimal 400px</div>"
+    },
+    {
+      "kategori": "Box Model",
+      "command": "margin",
+      "fungsi": "Jarak luar elemen.",
+      "code": "margin: 20px;",
+      "demo": "<div style='border:1px dashed #999'><div style='margin:20px;background:#dbeafe;padding:8px'>Punya margin</div></div>"
+    },
+    {
+      "kategori": "Box Model",
+      "command": "padding",
+      "fungsi": "Jarak dalam elemen.",
+      "code": "padding: 20px;",
+      "demo": "<div style='padding:20px;background:#dbeafe;border-radius:8px'>Punya padding</div>"
+    },
+    {
+      "kategori": "Box Model",
+      "command": "border",
+      "fungsi": "Garis tepi elemen.",
+      "code": "border: 2px solid blue;",
+      "demo": "<div style='border:2px solid blue;padding:10px;border-radius:8px'>Ada border</div>"
+    },
+    {
+      "kategori": "Box Model",
+      "command": "border-radius",
+      "fungsi": "Membuat sudut membulat.",
+      "code": "border-radius: 16px;",
+      "demo": "<div style='border-radius:16px;background:#dbeafe;padding:12px'>Sudut membulat</div>"
+    },
+    {
+      "kategori": "Box Model",
+      "command": "box-shadow",
+      "fungsi": "Memberi bayangan elemen.",
+      "code": "box-shadow: 0 10px 20px rgba(0,0,0,.12);",
+      "demo": "<div style='box-shadow:0 10px 20px rgba(0,0,0,.12);padding:14px;border-radius:10px;background:white'>Ada bayangan</div>"
+    },
+    {
+      "kategori": "Box Model",
+      "command": "box-sizing",
+      "fungsi": "Mengatur cara width/height dihitung. border-box lebih mudah untuk layout.",
+      "code": "box-sizing: border-box;",
+      "demo": "<div class='demo-note'>Padding dan border ikut dihitung dalam lebar.</div>"
+    },
+    {
+      "kategori": "Display dan Layout",
+      "command": "display: block",
+      "fungsi": "Elemen mengambil satu baris penuh.",
+      "code": "display: block;",
+      "demo": "<span style='display:block;background:#dbeafe;padding:8px'>Block 1</span><span style='display:block;background:#bfdbfe;padding:8px'>Block 2</span>"
+    },
+    {
+      "kategori": "Display dan Layout",
+      "command": "display: inline",
+      "fungsi": "Elemen mengikuti alur teks dan tidak membuat baris baru.",
+      "code": "display: inline;",
+      "demo": "<span style='background:#dbeafe;padding:4px'>Inline 1</span> <span style='background:#bfdbfe;padding:4px'>Inline 2</span>"
+    },
+    {
+      "kategori": "Display dan Layout",
+      "command": "display: inline-block",
+      "fungsi": "Seperti inline, tapi bisa diberi width/height/padding.",
+      "code": "display: inline-block; width: 120px;",
+      "demo": "<span style='display:inline-block;width:120px;background:#dbeafe;padding:8px'>Inline block</span>"
+    },
+    {
+      "kategori": "Display dan Layout",
+      "command": "display: none",
+      "fungsi": "Menyembunyikan elemen dari halaman.",
+      "code": "display: none;",
+      "demo": "<div class='demo-note'>Elemen dengan display none tidak terlihat dan tidak mengambil ruang.</div>"
+    },
+    {
+      "kategori": "Display dan Layout",
+      "command": "overflow",
+      "fungsi": "Mengatur konten yang melebihi ukuran elemen.",
+      "code": "overflow: auto;",
+      "demo": "<div style='width:220px;height:55px;overflow:auto;border:1px solid #ddd;padding:8px'>Teks panjang sekali sekali sekali sekali sehingga perlu scroll.</div>"
+    },
+    {
+      "kategori": "Flexbox",
+      "command": "display: flex",
+      "fungsi": "Mengaktifkan flexbox untuk menyusun child secara baris/kolom.",
+      "code": ".parent {\n  display: flex;\n}",
+      "demo": "<div style='display:flex;gap:8px'><div class='box-mini'>1</div><div class='box-mini'>2</div><div class='box-mini'>3</div></div>"
+    },
+    {
+      "kategori": "Flexbox",
+      "command": "justify-content",
+      "fungsi": "Mengatur posisi item secara horizontal/main axis.",
+      "code": "justify-content: space-between;",
+      "demo": "<div style='display:flex;justify-content:space-between;background:#f3f4f6;padding:8px'><div class='box-mini'>A</div><div class='box-mini'>B</div></div>"
+    },
+    {
+      "kategori": "Flexbox",
+      "command": "align-items",
+      "fungsi": "Mengatur posisi item secara vertikal/cross axis.",
+      "code": "align-items: center;",
+      "demo": "<div style='display:flex;align-items:center;height:80px;background:#f3f4f6;padding:8px'><div class='box-mini'>Center</div></div>"
+    },
+    {
+      "kategori": "Flexbox",
+      "command": "gap",
+      "fungsi": "Mengatur jarak antar item flex/grid.",
+      "code": "gap: 16px;",
+      "demo": "<div style='display:flex;gap:16px'><div class='box-mini'>1</div><div class='box-mini'>2</div></div>"
+    },
+    {
+      "kategori": "Flexbox",
+      "command": "flex-direction",
+      "fungsi": "Mengatur arah item: row, column, row-reverse, column-reverse.",
+      "code": "flex-direction: column;",
+      "demo": "<div style='display:flex;flex-direction:column;gap:8px'><div class='box-mini'>Atas</div><div class='box-mini'>Bawah</div></div>"
+    },
+    {
+      "kategori": "Flexbox",
+      "command": "flex-wrap",
+      "fungsi": "Membuat item turun baris saat ruang tidak cukup.",
+      "code": "flex-wrap: wrap;",
+      "demo": "<div style='display:flex;flex-wrap:wrap;gap:8px;width:180px'><div class='box-mini'>1</div><div class='box-mini'>2</div><div class='box-mini'>3</div></div>"
+    },
+    {
+      "kategori": "Flexbox",
+      "command": "flex",
+      "fungsi": "Mengatur pembagian ruang item dalam flexbox.",
+      "code": ".left { flex: 2; }\n.right { flex: 1; }",
+      "demo": "<div style='display:flex;gap:8px'><div style='flex:2;background:#dbeafe;padding:8px;border-radius:8px'>flex 2</div><div style='flex:1;background:#bfdbfe;padding:8px;border-radius:8px'>flex 1</div></div>"
+    },
+    {
+      "kategori": "Grid",
+      "command": "display: grid",
+      "fungsi": "Mengaktifkan CSS Grid untuk layout baris dan kolom.",
+      "code": ".parent {\n  display: grid;\n}",
+      "demo": "<div style='display:grid;grid-template-columns:1fr 1fr;gap:8px'><div class='box-mini'>1</div><div class='box-mini'>2</div><div class='box-mini'>3</div><div class='box-mini'>4</div></div>"
+    },
+    {
+      "kategori": "Grid",
+      "command": "grid-template-columns",
+      "fungsi": "Mengatur jumlah dan ukuran kolom grid.",
+      "code": "grid-template-columns: repeat(3, 1fr);",
+      "demo": "<div style='display:grid;grid-template-columns:repeat(3,1fr);gap:8px'><div class='box-mini'>1</div><div class='box-mini'>2</div><div class='box-mini'>3</div></div>"
+    },
+    {
+      "kategori": "Grid",
+      "command": "minmax()",
+      "fungsi": "Membuat ukuran kolom minimal dan maksimal.",
+      "code": "grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));",
+      "demo": "<div class='demo-note'>Cocok untuk card responsif.</div>"
+    },
+    {
+      "kategori": "Grid",
+      "command": "grid-column",
+      "fungsi": "Membuat item mengambil beberapa kolom.",
+      "code": "grid-column: span 2;",
+      "demo": "<div style='display:grid;grid-template-columns:1fr 1fr;gap:8px'><div style='grid-column:span 2' class='box-mini'>Span 2</div><div class='box-mini'>A</div><div class='box-mini'>B</div></div>"
+    },
+    {
+      "kategori": "Position",
+      "command": "position: static",
+      "fungsi": "Posisi normal bawaan elemen.",
+      "code": "position: static;",
+      "demo": "<div class='demo-note'>Static mengikuti alur normal dokumen.</div>"
+    },
+    {
+      "kategori": "Position",
+      "command": "position: relative",
+      "fungsi": "Elemen tetap di alur normal, tapi bisa digeser dengan top/left.",
+      "code": "position: relative;\nleft: 20px;",
+      "demo": "<div style='position:relative;left:20px;background:#dbeafe;padding:8px;border-radius:8px'>Geser 20px</div>"
+    },
+    {
+      "kategori": "Position",
+      "command": "position: absolute",
+      "fungsi": "Elemen diposisikan relatif ke parent yang positioned.",
+      "code": "position: absolute;\ntop: 10px;\nright: 10px;",
+      "demo": "<div style='position:relative;height:80px;background:#f3f4f6;border-radius:8px'><div style='position:absolute;top:10px;right:10px;background:#2563eb;color:white;padding:6px;border-radius:6px'>Absolute</div></div>"
+    },
+    {
+      "kategori": "Position",
+      "command": "position: fixed",
+      "fungsi": "Elemen menempel pada viewport walaupun halaman discroll.",
+      "code": "position: fixed;\nbottom: 20px;",
+      "demo": "<div class='demo-note'>Biasanya untuk tombol chat/back-to-top.</div>"
+    },
+    {
+      "kategori": "Position",
+      "command": "position: sticky",
+      "fungsi": "Elemen normal, lalu menempel saat discroll melewati posisi tertentu.",
+      "code": "position: sticky;\ntop: 0;",
+      "demo": "<div class='demo-note'>Cocok untuk header/menu yang menempel.</div>"
+    },
+    {
+      "kategori": "Position",
+      "command": "z-index",
+      "fungsi": "Mengatur urutan tumpukan elemen positioned.",
+      "code": "z-index: 10;",
+      "demo": "<div class='demo-note'>Nilai lebih besar tampil di atas.</div>"
+    },
+    {
+      "kategori": "Responsive dan Animasi",
+      "command": "@media",
+      "fungsi": "Membuat style khusus untuk ukuran layar tertentu.",
+      "code": "@media (max-width: 768px) {\n  .layout { flex-direction: column; }\n}",
+      "demo": "<div class='demo-note'>Dipakai agar layout bagus di HP.</div>"
+    },
+    {
+      "kategori": "Responsive dan Animasi",
+      "command": "clamp()",
+      "fungsi": "Membuat ukuran fleksibel dengan batas minimal dan maksimal.",
+      "code": "font-size: clamp(24px, 5vw, 56px);",
+      "demo": "<div style='font-size:clamp(24px,5vw,40px)'>Ukuran fleksibel</div>"
+    },
+    {
+      "kategori": "Responsive dan Animasi",
+      "command": "transition",
+      "fungsi": "Membuat perubahan style lebih halus.",
+      "code": "transition: 0.3s;",
+      "demo": "<button class='btn transition-demo'>Hover halus</button>"
+    },
+    {
+      "kategori": "Responsive dan Animasi",
+      "command": "transform",
+      "fungsi": "Mengubah bentuk/posisi elemen seperti scale, rotate, translate.",
+      "code": "transform: rotate(3deg);",
+      "demo": "<div style='display:inline-block;transform:rotate(3deg);background:#dbeafe;padding:10px;border-radius:8px'>Rotate</div>"
+    },
+    {
+      "kategori": "Responsive dan Animasi",
+      "command": "animation dan @keyframes",
+      "fungsi": "Membuat animasi CSS berulang atau sekali jalan.",
+      "code": "@keyframes naikTurun {\n  from { transform: translateY(0); }\n  to { transform: translateY(-10px); }\n}",
+      "demo": "<div class='animated-demo'>Animasi</div>"
+    }
+  ],
+  "php": [
+    {
+      "kategori": "Dasar PHP",
+      "command": "<?php ... ?>",
+      "fungsi": "Tag pembuka dan penutup PHP.",
+      "code": "<?php\necho 'Halo PHP';\n?>",
+      "output": "Halo PHP"
+    },
+    {
+      "kategori": "Dasar PHP",
+      "command": "echo",
+      "fungsi": "Menampilkan teks/output ke browser.",
+      "code": "echo 'Halo dunia';",
+      "output": "Halo dunia"
+    },
+    {
+      "kategori": "Dasar PHP",
+      "command": "print",
+      "fungsi": "Menampilkan output seperti echo, tetapi mengembalikan nilai 1.",
+      "code": "print 'Belajar PHP';",
+      "output": "Belajar PHP"
+    },
+    {
+      "kategori": "Dasar PHP",
+      "command": "// komentar",
+      "fungsi": "Membuat komentar satu baris yang tidak dieksekusi.",
+      "code": "// Ini komentar\necho 'Jalan';",
+      "output": "Jalan"
+    },
+    {
+      "kategori": "Dasar PHP",
+      "command": "/* komentar */",
+      "fungsi": "Membuat komentar banyak baris.",
+      "code": "/*\nKomentar panjang\n*/\necho 'OK';",
+      "output": "OK"
+    },
+    {
+      "kategori": "Variable dan Tipe Data",
+      "command": "$variable",
+      "fungsi": "Menyimpan data sementara.",
+      "code": "$nama = 'Jauza';\necho $nama;",
+      "output": "Jauza"
+    },
+    {
+      "kategori": "Variable dan Tipe Data",
+      "command": "string",
+      "fungsi": "Tipe data teks.",
+      "code": "$nama = 'Jauza';",
+      "output": "Berisi teks: Jauza"
+    },
+    {
+      "kategori": "Variable dan Tipe Data",
+      "command": "integer",
+      "fungsi": "Tipe data angka bulat.",
+      "code": "$umur = 20;",
+      "output": "Berisi angka bulat: 20"
+    },
+    {
+      "kategori": "Variable dan Tipe Data",
+      "command": "float",
+      "fungsi": "Tipe data angka desimal.",
+      "code": "$nilai = 88.5;",
+      "output": "Berisi angka desimal: 88.5"
+    },
+    {
+      "kategori": "Variable dan Tipe Data",
+      "command": "boolean",
+      "fungsi": "Tipe data true/false.",
+      "code": "$aktif = true;",
+      "output": "true berarti benar/aktif"
+    },
+    {
+      "kategori": "Variable dan Tipe Data",
+      "command": "array",
+      "fungsi": "Menyimpan banyak data dalam satu variable.",
+      "code": "$materi = ['HTML', 'CSS', 'PHP'];\necho $materi[0];",
+      "output": "HTML"
+    },
+    {
+      "kategori": "Operator",
+      "command": "Operator aritmatika",
+      "fungsi": "Melakukan operasi matematika: +, -, *, /, %.",
+      "code": "echo 10 + 5;\necho 10 % 3;",
+      "output": "15 dan sisa bagi 1"
+    },
+    {
+      "kategori": "Operator",
+      "command": "Operator perbandingan",
+      "fungsi": "Membandingkan nilai: ==, ===, !=, >, <, >=, <=.",
+      "code": "var_dump(10 > 5);",
+      "output": "bool(true)"
+    },
+    {
+      "kategori": "Operator",
+      "command": "Operator logika",
+      "fungsi": "Menggabungkan kondisi: &&, ||, !.",
+      "code": "$login = true;\n$admin = false;\nvar_dump($login && $admin);",
+      "output": "bool(false)"
+    },
+    {
+      "kategori": "Operator",
+      "command": "Operator penggabung .",
+      "fungsi": "Menggabungkan string.",
+      "code": "$nama = 'Jauza';\necho 'Halo ' . $nama;",
+      "output": "Halo Jauza"
+    },
+    {
+      "kategori": "Operator",
+      "command": "Null coalescing ??",
+      "fungsi": "Memberi nilai default jika data tidak ada/null.",
+      "code": "$nama = $_POST['nama'] ?? 'Guest';\necho $nama;",
+      "output": "Guest jika POST nama tidak ada"
+    },
+    {
+      "kategori": "Percabangan",
+      "command": "if",
+      "fungsi": "Menjalankan kode jika kondisi benar.",
+      "code": "$nilai = 80;\nif ($nilai >= 75) {\n  echo 'Lulus';\n}",
+      "output": "Lulus"
+    },
+    {
+      "kategori": "Percabangan",
+      "command": "if else",
+      "fungsi": "Menjalankan pilihan lain jika kondisi salah.",
+      "code": "$nilai = 60;\nif ($nilai >= 75) {\n  echo 'Lulus';\n} else {\n  echo 'Belum lulus';\n}",
+      "output": "Belum lulus"
+    },
+    {
+      "kategori": "Percabangan",
+      "command": "elseif",
+      "fungsi": "Mengecek banyak kondisi berurutan.",
+      "code": "$nilai = 85;\nif ($nilai >= 90) echo 'A';\nelseif ($nilai >= 80) echo 'B';\nelse echo 'C';",
+      "output": "B"
+    },
+    {
+      "kategori": "Percabangan",
+      "command": "switch",
+      "fungsi": "Memilih aksi berdasarkan satu nilai.",
+      "code": "$role = 'admin';\nswitch ($role) {\n  case 'admin': echo 'Dashboard Admin'; break;\n  default: echo 'User';\n}",
+      "output": "Dashboard Admin"
+    },
+    {
+      "kategori": "Percabangan",
+      "command": "match",
+      "fungsi": "Percabangan modern PHP 8 yang mengembalikan nilai.",
+      "code": "$status = 1;\n$text = match($status) {\n  1 => 'Aktif',\n  0 => 'Nonaktif'\n};\necho $text;",
+      "output": "Aktif"
+    },
+    {
+      "kategori": "Looping",
+      "command": "for",
+      "fungsi": "Perulangan dengan jumlah yang biasanya sudah diketahui.",
+      "code": "for ($i = 1; $i <= 3; $i++) {\n  echo $i;\n}",
+      "output": "123"
+    },
+    {
+      "kategori": "Looping",
+      "command": "while",
+      "fungsi": "Perulangan selama kondisi masih benar.",
+      "code": "$i = 1;\nwhile ($i <= 3) {\n  echo $i;\n  $i++;\n}",
+      "output": "123"
+    },
+    {
+      "kategori": "Looping",
+      "command": "do while",
+      "fungsi": "Perulangan yang minimal jalan sekali.",
+      "code": "$i = 1;\ndo {\n  echo $i;\n  $i++;\n} while ($i <= 3);",
+      "output": "123"
+    },
+    {
+      "kategori": "Looping",
+      "command": "foreach",
+      "fungsi": "Perulangan khusus array.",
+      "code": "$materi = ['HTML', 'CSS'];\nforeach ($materi as $item) {\n  echo $item;\n}",
+      "output": "HTMLCSS"
+    },
+    {
+      "kategori": "Looping",
+      "command": "break",
+      "fungsi": "Menghentikan perulangan.",
+      "code": "for ($i=1; $i<=5; $i++) {\n  if ($i == 3) break;\n  echo $i;\n}",
+      "output": "12"
+    },
+    {
+      "kategori": "Looping",
+      "command": "continue",
+      "fungsi": "Melompati satu putaran loop.",
+      "code": "for ($i=1; $i<=3; $i++) {\n  if ($i == 2) continue;\n  echo $i;\n}",
+      "output": "13"
+    },
+    {
+      "kategori": "Function",
+      "command": "function",
+      "fungsi": "Membuat blok kode yang bisa dipakai ulang.",
+      "code": "function salam($nama) {\n  return 'Halo ' . $nama;\n}\necho salam('Jauza');",
+      "output": "Halo Jauza"
+    },
+    {
+      "kategori": "Function",
+      "command": "return",
+      "fungsi": "Mengembalikan hasil dari function.",
+      "code": "function tambah($a, $b) {\n  return $a + $b;\n}\necho tambah(2, 3);",
+      "output": "5"
+    },
+    {
+      "kategori": "Function",
+      "command": "strlen()",
+      "fungsi": "Menghitung jumlah karakter string.",
+      "code": "echo strlen('PHP');",
+      "output": "3"
+    },
+    {
+      "kategori": "Function",
+      "command": "strtolower()",
+      "fungsi": "Mengubah string menjadi huruf kecil.",
+      "code": "echo strtolower('BELAJAR');",
+      "output": "belajar"
+    },
+    {
+      "kategori": "Function",
+      "command": "strtoupper()",
+      "fungsi": "Mengubah string menjadi huruf besar.",
+      "code": "echo strtoupper('belajar');",
+      "output": "BELAJAR"
+    },
+    {
+      "kategori": "Function",
+      "command": "trim()",
+      "fungsi": "Menghapus spasi di awal dan akhir string.",
+      "code": "echo trim('  Jauza  ');",
+      "output": "Jauza"
+    },
+    {
+      "kategori": "Function",
+      "command": "str_replace()",
+      "fungsi": "Mengganti bagian string.",
+      "code": "echo str_replace('PHP', 'HTML', 'Belajar PHP');",
+      "output": "Belajar HTML"
+    },
+    {
+      "kategori": "Function",
+      "command": "explode()",
+      "fungsi": "Memecah string menjadi array.",
+      "code": "$data = explode(',', 'HTML,CSS,PHP');\necho $data[0];",
+      "output": "HTML"
+    },
+    {
+      "kategori": "Function",
+      "command": "implode()",
+      "fungsi": "Menggabungkan array menjadi string.",
+      "code": "echo implode(' - ', ['HTML','CSS','PHP']);",
+      "output": "HTML - CSS - PHP"
+    },
+    {
+      "kategori": "Array",
+      "command": "count()",
+      "fungsi": "Menghitung jumlah item array.",
+      "code": "echo count(['HTML','CSS','PHP']);",
+      "output": "3"
+    },
+    {
+      "kategori": "Array",
+      "command": "array_push()",
+      "fungsi": "Menambah item ke akhir array.",
+      "code": "$a = ['HTML'];\narray_push($a, 'CSS');\nprint_r($a);",
+      "output": "Array ( [0] => HTML [1] => CSS )"
+    },
+    {
+      "kategori": "Array",
+      "command": "in_array()",
+      "fungsi": "Mengecek apakah nilai ada di array.",
+      "code": "var_dump(in_array('CSS', ['HTML','CSS']));",
+      "output": "bool(true)"
+    },
+    {
+      "kategori": "Array",
+      "command": "array_merge()",
+      "fungsi": "Menggabungkan array.",
+      "code": "$a = ['HTML'];\n$b = ['CSS'];\nprint_r(array_merge($a, $b));",
+      "output": "Array ( [0] => HTML [1] => CSS )"
+    },
+    {
+      "kategori": "Array",
+      "command": "sort()",
+      "fungsi": "Mengurutkan array indexed dari kecil ke besar/alfabet.",
+      "code": "$a = ['PHP','CSS','HTML'];\nsort($a);\nprint_r($a);",
+      "output": "Array ( [0] => CSS [1] => HTML [2] => PHP )"
+    },
+    {
+      "kategori": "Form dan Request",
+      "command": "$_GET",
+      "fungsi": "Mengambil data dari URL/query string.",
+      "code": "// URL: page.php?nama=Jauza\necho $_GET['nama'];",
+      "output": "Jauza"
+    },
+    {
+      "kategori": "Form dan Request",
+      "command": "$_POST",
+      "fungsi": "Mengambil data dari form method POST.",
+      "code": "$nama = $_POST['nama'] ?? '';\necho $nama;",
+      "output": "Isi sesuai input form"
+    },
+    {
+      "kategori": "Form dan Request",
+      "command": "$_REQUEST",
+      "fungsi": "Mengambil data dari GET, POST, atau COOKIE. Gunakan hati-hati.",
+      "code": "$nama = $_REQUEST['nama'] ?? 'Guest';",
+      "output": "Guest jika tidak ada input"
+    },
+    {
+      "kategori": "Form dan Request",
+      "command": "htmlspecialchars()",
+      "fungsi": "Mengamankan output dari input user agar tidak mudah XSS.",
+      "code": "echo htmlspecialchars($input, ENT_QUOTES, 'UTF-8');",
+      "output": "Tag HTML berbahaya ditampilkan sebagai teks"
+    },
+    {
+      "kategori": "Form dan Request",
+      "command": "isset()",
+      "fungsi": "Mengecek apakah variable/index sudah ada dan bukan null.",
+      "code": "if (isset($_POST['nama'])) {\n  echo 'Ada';\n}",
+      "output": "Ada jika input nama dikirim"
+    },
+    {
+      "kategori": "Form dan Request",
+      "command": "empty()",
+      "fungsi": "Mengecek apakah data kosong.",
+      "code": "if (empty($nama)) {\n  echo 'Nama kosong';\n}",
+      "output": "Nama kosong"
+    },
+    {
+      "kategori": "Session, Include, File",
+      "command": "session_start()",
+      "fungsi": "Memulai session, wajib sebelum memakai $_SESSION.",
+      "code": "session_start();\n$_SESSION['login'] = true;",
+      "output": "Session login disimpan"
+    },
+    {
+      "kategori": "Session, Include, File",
+      "command": "include",
+      "fungsi": "Memanggil file lain. Jika file tidak ada, hanya warning.",
+      "code": "include 'header.php';",
+      "output": "Isi header.php masuk ke halaman"
+    },
+    {
+      "kategori": "Session, Include, File",
+      "command": "require",
+      "fungsi": "Memanggil file lain. Jika file tidak ada, program berhenti error.",
+      "code": "require 'koneksi.php';",
+      "output": "Isi koneksi.php wajib ada"
+    },
+    {
+      "kategori": "Session, Include, File",
+      "command": "file_get_contents()",
+      "fungsi": "Membaca isi file menjadi string.",
+      "code": "$isi = file_get_contents('data.txt');",
+      "output": "Isi file tersimpan di variable $isi"
+    },
+    {
+      "kategori": "Session, Include, File",
+      "command": "file_put_contents()",
+      "fungsi": "Menulis string ke file.",
+      "code": "file_put_contents('data.txt', 'Halo');",
+      "output": "File data.txt berisi Halo"
+    },
+    {
+      "kategori": "Session, Include, File",
+      "command": "header('Location: ...')",
+      "fungsi": "Redirect/mengarahkan user ke halaman lain.",
+      "code": "header('Location: index.php');\nexit;",
+      "output": "User pindah ke index.php"
+    },
+    {
+      "kategori": "Database MySQLi",
+      "command": "mysqli_connect()",
+      "fungsi": "Menghubungkan PHP ke database MySQL.",
+      "code": "$koneksi = mysqli_connect('localhost','root','','db_latihan');",
+      "output": "Koneksi database dibuat"
+    },
+    {
+      "kategori": "Database MySQLi",
+      "command": "mysqli_query()",
+      "fungsi": "Menjalankan query SQL.",
+      "code": "mysqli_query($koneksi, 'SELECT * FROM users');",
+      "output": "Query dijalankan"
+    },
+    {
+      "kategori": "Database MySQLi",
+      "command": "mysqli_fetch_assoc()",
+      "fungsi": "Mengambil hasil query sebagai array associative.",
+      "code": "while ($row = mysqli_fetch_assoc($result)) {\n  echo $row['nama'];\n}",
+      "output": "Menampilkan nama dari tabel"
+    },
+    {
+      "kategori": "Database MySQLi",
+      "command": "mysqli_prepare()",
+      "fungsi": "Membuat prepared statement agar query lebih aman.",
+      "code": "$stmt = mysqli_prepare($koneksi, 'INSERT INTO users(nama) VALUES (?)');",
+      "output": "Statement siap dipakai"
+    },
+    {
+      "kategori": "Database MySQLi",
+      "command": "mysqli_stmt_bind_param()",
+      "fungsi": "Mengikat input ke prepared statement.",
+      "code": "mysqli_stmt_bind_param($stmt, 's', $nama);",
+      "output": "'s' berarti parameter string"
+    },
+    {
+      "kategori": "Database MySQLi",
+      "command": "mysqli_stmt_execute()",
+      "fungsi": "Menjalankan prepared statement.",
+      "code": "mysqli_stmt_execute($stmt);",
+      "output": "Data diproses dengan aman"
+    }
+  ]
+}

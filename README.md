@@ -1,4 +1,10 @@
-# Website Belajar Koding Lengkap
+# Belajar Koding
+
+Kamus praktis HTML, CSS, dan PHP Native.
+
+**Demo:** https://portofolio-jauza-fawaid.netlify.app/BELAJAR-KODING/
+
+![Tampilan Belajar Koding](docs/tampilan.jpg)
 
 Website ini dibuat untuk belajar:
 
@@ -11,7 +17,7 @@ Website ini dibuat untuk belajar:
 ## Struktur Folder
 
 ```text
-website_belajar_koding_lengkap/
+BELAJAR-KODING/
 ├── index.php
 ├── belajar-html.php
 ├── belajar-css.php
@@ -32,7 +38,7 @@ website_belajar_koding_lengkap/
 ## Cara Menjalankan dengan XAMPP
 
 1. Extract folder ini.
-2. Letakkan folder `website_belajar_koding_lengkap` ke:
+2. Letakkan folder `BELAJAR-KODING` ke:
 
 ```text
 C:\xampp\htdocs\
@@ -42,7 +48,7 @@ C:\xampp\htdocs\
 4. Buka browser:
 
 ```text
-http://localhost/website_belajar_koding_lengkap/index.php
+http://localhost/BELAJAR-KODING/index.php
 ```
 
 ## Cara Menjalankan dengan PHP Built-in Server
@@ -50,7 +56,7 @@ http://localhost/website_belajar_koding_lengkap/index.php
 Buka terminal di dalam folder ini:
 
 ```bash
-cd C:\xampp\htdocs\website_belajar_koding_lengkap
+cd C:\xampp\htdocs\BELAJAR-KODING
 php -S localhost:8000
 ```
 

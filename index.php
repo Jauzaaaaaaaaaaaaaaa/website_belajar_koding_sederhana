@@ -71,8 +71,8 @@ $total_php = count($materi['php']);
     <section class="container info-panel">
         <div>
             <h2>Cara menjalankan website ini</h2>
-            <p>Jika folder ada di <code>C:\xampp\htdocs\website_belajar_koding_lengkap</code>, kamu bisa buka:</p>
-            <?= render_code('http://localhost/website_belajar_koding_lengkap/index.php'); ?>
+            <p>Jika folder ada di <code>C:\xampp\htdocs\BELAJAR-KODING</code>, kamu bisa buka:</p>
+            <?= render_code('http://localhost/BELAJAR-KODING/index.php'); ?>
             <p>Atau dari terminal di folder ini:</p>
             <?= render_code('php -S localhost:8000'); ?>
             <p>Lalu buka:</p>

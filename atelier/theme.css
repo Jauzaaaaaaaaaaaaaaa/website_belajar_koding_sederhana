@@ -1,0 +1,71 @@
+/* BELAJAR KODING: jendela editor kode. Tema gelap, tab berkas, warna sintaks, nomor baris. */
+:root { --bg0: #16171f; --bg1: #1e2029; --bg2: #272a36; --tx: #e4e6ee; --dm: #9095a8; --kw: #ff79a8; --fn: #7fdcff; --st: #b8f28a; --at1: #ffc66d; --hr: #30333f;
+  --at-accent: #1e2029; --at-on-accent: #e4e6ee; --at-deep: #16171f; --at-mono: "Source Code Pro", monospace; }
+html { background: var(--bg0); }
+body, body.at { font-family: "Outfit", system-ui, sans-serif; color: var(--tx) !important; background: var(--bg0) !important; }
+h1, h2, h3, h4 { color: var(--tx) !important; font-weight: 800; letter-spacing: -.02em; }
+p, li { color: #bfc3d2; }
+.at-curtain__a, .at-curtain__b { border-radius: 0; inset: 0; }
+.at-curtain__cap { color: var(--dm); }
+.ed-boot { margin: 0; font: 400 clamp(1rem, 3.4vw, 1.8rem)/1.6 "Source Code Pro", monospace; color: var(--st); text-align: left; }
+.ed-boot span { display: block; opacity: 0; animation: ed-line .2s var(--d) forwards; }
+.ed-boot b { display: inline-block; width: 2em; font-weight: 400; color: #5a5f73; }
+.ed-boot i { display: inline-block; width: .55em; height: 1.1em; margin-left: 4px; vertical-align: -.2em; background: var(--st); animation: ed-blink .7s steps(1) infinite; }
+@keyframes ed-line { to { opacity: 1; } }
+@keyframes ed-blink { 50% { opacity: 0; } }
+
+/* Bilah judul dan tab berkas */
+.site-header { background: var(--bg1) !important; border-bottom: 1px solid var(--hr) !important; box-shadow: none !important; backdrop-filter: none; }
+.brand strong { color: var(--tx); }
+.brand small { color: var(--dm) !important; font-family: "Source Code Pro", monospace; }
+.brand-icon { border-radius: 6px !important; background: var(--bg2) !important; color: var(--at1) !important; font-family: "Source Code Pro", monospace; }
+.main-nav a { position: relative; border-radius: 0 !important; color: var(--dm) !important; font-family: "Source Code Pro", monospace; font-size: .84rem; background: transparent !important; }
+.main-nav a:hover { color: var(--tx) !important; background: var(--bg2) !important; }
+.main-nav a.active { color: var(--tx) !important; background: var(--bg0) !important; box-shadow: inset 0 2px 0 var(--at1); }
+
+/* Hero dengan nomor baris */
+.hero, .page-hero, .html-hero, .css-hero, .php-hero, .layout-hero, .exercise-hero { background: var(--bg0) !important; color: var(--tx) !important; background-image: linear-gradient(90deg, var(--bg1) 44px, var(--hr) 44px, var(--hr) 45px, transparent 45px) !important; }
+.hero h1, .page-hero h1 { font-size: clamp(2.5rem, 7vw, 5.6rem); line-height: 1.02; }
+.hero p, .page-hero p { color: #bfc3d2 !important; }
+.eyebrow, .section-heading span { color: var(--kw) !important; font-family: "Source Code Pro", monospace; background: transparent !important; padding: 0 !important; letter-spacing: 0; }
+.eyebrow::before, .section-heading span::before { content: "// "; color: var(--dm); }
+.section-heading p { color: var(--dm) !important; }
+.btn { border-radius: 6px !important; font-family: "Source Code Pro", monospace; font-weight: 600; transition: transform .4s var(--at-out), background-color .2s; }
+.btn:hover { transform: translateY(-2px); }
+.btn.primary { background: var(--st) !important; color: var(--bg0) !important; border-color: var(--st) !important; }
+.btn.ghost { background: transparent !important; color: var(--tx) !important; border: 1px solid var(--hr) !important; }
+
+/* Panel */
+.hero-card, .roadmap-grid article, .info-panel, .intro-card, .lesson-card, .search-note, .comparison-table-wrap { background: var(--bg1) !important; border: 1px solid var(--hr) !important; border-radius: 8px !important; box-shadow: none !important; color: var(--tx) !important; }
+.lesson-card { transition: border-color .25s, transform .5s var(--at-out); }
+.lesson-card:hover, .roadmap-grid article:hover { border-color: var(--at1) !important; transform: translateY(-3px); }
+.hero-card h2 { color: var(--tx) !important; }
+.hero-card p { color: var(--dm) !important; }
+.stats div { background: var(--bg2) !important; border-radius: 6px !important; border: 0 !important; }
+.stats strong { color: var(--at1) !important; font-family: "Source Code Pro", monospace; }
+.stats span { color: var(--dm) !important; }
+.roadmap-grid b { background: var(--bg2) !important; color: var(--at1) !important; border-radius: 4px !important; font-family: "Source Code Pro", monospace; }
+.roadmap-grid a { color: var(--fn) !important; }
+.badge { border-radius: 4px !important; background: rgba(255, 121, 168, .16) !important; color: var(--kw) !important; font-family: "Source Code Pro", monospace; }
+.css-badge { background: rgba(127, 220, 255, .16) !important; color: var(--fn) !important; }
+.php-badge { background: rgba(184, 242, 138, .16) !important; color: var(--st) !important; }
+.code-block { background: var(--bg0) !important; border: 1px solid var(--hr) !important; border-radius: 6px !important; box-shadow: none !important; }
+.code-block code, code { font-family: "Source Code Pro", monospace; color: var(--st) !important; }
+kbd { background: var(--bg2) !important; color: var(--tx) !important; border-color: var(--hr) !important; font-family: "Source Code Pro", monospace; }
+/* Kotak pratinjau tetap terang: isinya contoh tampilan browser */
+.preview-box, .output-box, .css-preview { background: #fff !important; color: #1b1c24 !important; border-radius: 6px !important; border: 1px solid var(--hr) !important; }
+.preview-box *, .output-box *, .css-preview * { color: inherit; }
+.preview-box h1, .preview-box h2, .preview-box h3, .preview-box h4 { color: #1b1c24 !important; }
+.preview-box p, .preview-box li, .output-box p, .output-box li { color: #1b1c24; }
+table { color: var(--tx); }
+th { background: var(--bg2) !important; color: var(--at1) !important; font-family: "Source Code Pro", monospace; font-size: .82rem; }
+th, td { border-color: var(--hr) !important; }
+tr:nth-child(even) { background: var(--bg1) !important; }
+.checklist li { background: var(--bg1) !important; color: var(--tx) !important; border-radius: 6px !important; }
+.site-footer { background: var(--bg1) !important; color: var(--dm) !important; border-top: 1px solid var(--hr); }
+.site-footer h2, .site-footer h3, .site-footer h4 { color: var(--tx) !important; }
+.site-footer p, .site-footer li { color: var(--dm) !important; }
+.preview-input, .learning-form input, .learning-form select, .learning-form textarea { background: #fff; color: #1b1c24; }
+
+.ed-copy { position: absolute; top: 8px; right: 8px; padding: 3px 9px; border: 1px solid var(--hr); border-radius: 4px; background: var(--bg2); color: var(--dm); font: 400 .72rem "Source Code Pro", monospace; cursor: pointer; }
+.ed-copy:hover { color: var(--tx); border-color: var(--at1); }
